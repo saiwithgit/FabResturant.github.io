@@ -1,0 +1,45 @@
+/* Css reset */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    /* display: flex; */
+    position: relative;
+}
+/* logo and images */
+#logo{
+    margin: 0px;
+}
+#logo img{
+    height: 115px;
+}
+/* list style */
+#navbar ul{
+    display: flex;
+/* }
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    z-index: 3;
+    opacity: 0.4;
+} */
+#navbar ul li{
+    list-style: none;
+    font-size: 1.7rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 30px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+   background-color: black;
+    color: white;
+}

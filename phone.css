@@ -1,0 +1,43 @@
+/* navigation*/
+#navbar{
+    flex-direction: column;
+
+}
+
+/* home section */ 
+#home{
+    height: 880px;
+    margin: 0px;
+}
+#home::before{
+    height: 1050px;
+}
+#home p{
+    font-size: 1.4rem;
+    padding: 0px 885px;
+}
+/* services section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+   
+}
+#services .box img{
+   
+}
+
+/* client section */
+#client{
+
+}
+
+/* contact */
+#contact{
+
+}
+
+/* footer */
+footer{
+
+} 
